@@ -1,0 +1,13 @@
+name: brunch-filter
+
+on: 
+  push:
+    branches: ['dev']
+
+jobs:
+  brunch-filter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo "hello"
+      
