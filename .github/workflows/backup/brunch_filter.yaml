@@ -1,11 +1,11 @@
-name: brunch-filter
+name: branch-filter
 
 on: 
   push:
     branches: ['dev']
 
 jobs:
-  brunch-filter:
+  branch-filter:
     runs-on: ubuntu-latest
     steps:
       - name: echo
