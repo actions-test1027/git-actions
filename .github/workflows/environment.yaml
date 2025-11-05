@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: check env & secret org
         run: |
-          echo "LEVEL: ${{vars.LEVEL}}"
-          echo "KEY: ${{secrets.LEVEL}}"
+          echo "LEVEL: ${{ vars.LEVEL }}"
+          echo "KEY: ${{ secrets.LEVEL }}"
